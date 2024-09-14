@@ -6,6 +6,8 @@ public class Sere extends Titulos {
   private int minutosPorTemporada;
   private boolean ativa;
 
+
+
   public boolean isAtiva() {
     return ativa;
   }
@@ -36,5 +38,9 @@ public class Sere extends Titulos {
 
   public void setTemporada(int temporada) {
     this.temporada = temporada;
+  }
+   @Override
+  public int getDuracaoEmminutos() {
+    return temporada * episodiosPorTemporada * minutosPorTemporada;
   }
 }

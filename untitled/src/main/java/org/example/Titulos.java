@@ -50,4 +50,8 @@ public class Titulos {
   double pegaMedia() {
     return somaDasAvaliacoes / totalDeAvaliacoes;
   }
+
+  public int getDuracaoEmminutos() {
+    return duracaoEmMinutos;
+  }
 }

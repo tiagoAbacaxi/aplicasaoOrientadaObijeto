@@ -24,6 +24,7 @@ public class Main {
     minhaSerie.setEpisodiosPorTemporada(10);
     minhaSerie.setMinutosPorTemporada(50);
     minhaSerie.setAtiva(true);
+    System.out.println("duracao em minutos " + minhaSerie.getDuracaoEmminutos());
     
   }
 }
